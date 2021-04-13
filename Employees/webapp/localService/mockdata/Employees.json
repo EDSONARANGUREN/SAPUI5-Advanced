@@ -26,7 +26,7 @@
             "FirstName": "María",
             "Country": "VE",
             "City": "Caracas",
-            "PostalCode": "1010A",
+            "PostalCode": "1",
             "Orders": [
                 {
                     "OrderID": "208",
@@ -46,7 +46,67 @@
             "FirstName": "Pedro",
             "Country": "CL",
             "City": "Santiago",
-            "PostalCode": "8330447",
+            "PostalCode": "2",
+            "Orders": [
+                {
+                    "OrderID": "210",
+                    "Freight": "67",
+                    "ShipAddress": "Calle abajo"
+                },
+                {
+                    "OrderID": "2234",
+                    "Freight": "35",
+                    "ShipAddress": "Calle arriba"
+                }
+            ]
+        },
+        {
+            "EmployeeID": "3",
+            "LastName": "Ruiz Gonzalez",
+            "FirstName": "Rosa",
+            "Country": "VA",
+            "City": "Mandingo",
+            "PostalCode": "3",
+            "Orders": [
+                {
+                    "OrderID": "210",
+                    "Freight": "67",
+                    "ShipAddress": "Calle abajo"
+                },
+                {
+                    "OrderID": "2234",
+                    "Freight": "35",
+                    "ShipAddress": "Calle arriba"
+                }
+            ]
+        },
+        {
+            "EmployeeID": "4",
+            "LastName": "Romero Marin",
+            "FirstName": "Juan",
+            "Country": "VE",
+            "City": "Maracay",
+            "PostalCode": "4",
+            "Orders": [
+                {
+                    "OrderID": "210",
+                    "Freight": "67",
+                    "ShipAddress": "Calle abajo"
+                },
+                {
+                    "OrderID": "2234",
+                    "Freight": "35",
+                    "ShipAddress": "Calle arriba"
+                }
+            ]
+        },
+        {
+            "EmployeeID": "5",
+            "LastName": "Martinez Morales",
+            "FirstName": "Carlos",
+            "Country": "CL",
+            "City": "Santiago",
+            "PostalCode": "5",
             "Orders": [
                 {
                     "OrderID": "210",

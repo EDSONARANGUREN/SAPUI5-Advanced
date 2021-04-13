@@ -52,7 +52,7 @@ sap.ui.define([
             var oJSON = this.getView().getModel().getData();
             var filters = [];
 
-            if (oJSON.employeeId !== "") {
+            if (oJSON.EmployeeId !== "") {
                 filters.push(new Filter("EmployeeID", FilterOperator.EQ,oJSON.EmployeeId ));
             }
 
