@@ -1,0 +1,64 @@
+{
+    "EmployeeId": "",
+    "CountryKey": "",
+    "ListCountry": [
+        {
+            "Key": "VE",
+            "Text": "Venezuela"
+        },
+        {
+            "Key": "CL",
+            "Text": "Chile"
+        },
+        {
+            "Key": "US",
+            "Text": "Estados Unidos"
+        },
+        {
+            "Key": "VA",
+            "Text": "Vanuatu"
+        }
+    ],
+    "Employees": [
+        {
+            "EmployeeID": "1",
+            "LastName": "García Lopez",
+            "FirstName": "María",
+            "Country": "VE",
+            "City": "Caracas",
+            "PostalCode": "1010A",
+            "Orders": [
+                {
+                    "OrderID": "208",
+                    "Freight": "65",
+                    "ShipAddress": "Calle Alcalá"
+                },
+                {
+                    "OrderID": "2096",
+                    "Freight": "21",
+                    "ShipAddress": "Calle Mayor"
+                }
+            ]
+        },
+        {
+            "EmployeeID": "2",
+            "LastName": "Fernandez Díaz",
+            "FirstName": "Pedro",
+            "Country": "CL",
+            "City": "Santiago",
+            "PostalCode": "8330447",
+            "Orders": [
+                {
+                    "OrderID": "210",
+                    "Freight": "67",
+                    "ShipAddress": "Calle abajo"
+                },
+                {
+                    "OrderID": "2234",
+                    "Freight": "35",
+                    "ShipAddress": "Calle arriba"
+                }
+            ]
+        }
+    ]
+}
