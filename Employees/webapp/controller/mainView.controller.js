@@ -1,3 +1,4 @@
+// @ts-nocheck
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
     "sap/ui/model/Filter",
@@ -52,12 +53,12 @@ sap.ui.define([
             var oJSON = this.getView().getModel().getData();
             var filters = [];
 
-            if (oJSON.employeeId !== "") {
-                filters.push(new Filter("EmployeeID", FilterOperator.EQ,oJSON.EmployeeId ));
+            if (oJSON.EmployeeId !== "") {
+                filters.push(new Filter("EmployeeID", FilterOperator.EQ, oJSON.EmployeeId));
             }
 
             if (oJSON.CountryKey !== "") {
-                filters.push(new Filter("Country", FilterOperator.EQ,oJSON.CountryKey ));
+                filters.push(new Filter("Country", FilterOperator.EQ, oJSON.CountryKey));
             }
 
             var oList = this.getView().byId("tableEmployee");
@@ -71,6 +72,14 @@ sap.ui.define([
             this.getView().getModel().setProperty("/EmployeeId", "");
             this.getView().getModel().setProperty("/CountryKey", "");
         };
+
+        function showPostalCode(oEvent) {
+            var itemPressed = oEvent.getSource();
+            var oContext = itemPressed.getBindingContext();
+            var objectContext = oContext.getObject();
+
+            sap.m.MessageToast.show(objectContext.PostalCode);
+        }
 
         var Main = Controller.extend("logaligroup.Employees.controller.mainView", {});
 
@@ -93,6 +102,7 @@ sap.ui.define([
         Main.prototype.onInit = onInit;
         Main.prototype.onFilter = onFilter;
         Main.prototype.onClearFilter = onClearFilter;
+        Main.prototype.showPostalCode = showPostalCode;
 
         return Main;
     });
