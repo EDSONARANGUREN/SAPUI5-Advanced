@@ -1,24 +1,4 @@
 {
-    "EmployeeId": "",
-    "CountryKey": "",
-    "ListCountry": [
-        {
-            "Key": "VE",
-            "Text": "Venezuela"
-        },
-        {
-            "Key": "CL",
-            "Text": "Chile"
-        },
-        {
-            "Key": "US",
-            "Text": "Estados Unidos"
-        },
-        {
-            "Key": "VA",
-            "Text": "Vanuatu"
-        }
-    ],
     "Employees": [
         {
             "EmployeeID": "1",
